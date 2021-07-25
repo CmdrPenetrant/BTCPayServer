@@ -1,0 +1,136 @@
+/* 
+Gold: #b1812e
+Green: #5e5f35
+Ivory: #fffef2
+Black: #313131
+*/
+html {
+  background-color: rgb(255 255 255 / 0%) !important;
+}
+
+.modal.page {
+  background-color: rgb(255 255 255 / 0%) !important;
+}
+
+.top-header {
+  background-color: #fffef2;
+}
+
+.top-header .timer-row__progress-bar {
+  background: #b1812e;
+}
+
+.top-header .timer-row {
+  background: #c3984e;
+}
+
+.action-button {
+  color: #fffef2; 
+  background-color: #b1812e !important; 
+  border-color: #b1812e !important; 
+}
+
+.action-button:hover {
+  color: #313131;
+  background-color: #b1812e !important; 
+  border-color: #b1812e !important; 
+}
+
+.invoice {
+  background-color: #fffef2
+}
+
+.expired__body {
+  color: #313131;
+}
+
+.currency-selection {
+  background-color: #fffef2;
+  border-bottom: 1px solid #f1efd7;
+  color: #313131;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: auto;
+}
+
+.buyerTotalLine {
+  border-top: 0px solid #f1efd7;
+  background-color: #fffef2;
+  color: #313131;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.line-items {
+  background-color: #313131;
+  color: #fffef2 !important;
+  border-top: 1px solid #f1efd7 !important;
+}
+
+.buyerTotalLine .fa-angle-double-down {
+  opacity: .5;
+}
+
+.buyerTotalLine.expanded .fa-angle-double-up {
+  opacity: .5;
+}
+
+.payment-tabs {
+  background-color: #fffef2;
+  color: #313131;
+  border-top: 1px solid #c6c298;
+  border-bottom: 1px solid #c6c298;
+}
+
+.payment-tabs__slider {
+  display: none;
+}
+/*
+.payment-tabs__tab .active {
+  background-color: #b1812e;
+  color: #fffef2;
+}
+*/
+.payment-tabs__tab.active {
+  background: #b1812e;
+  color: #fffef2;
+}
+/*
+a {
+  color: #313131 !important;
+}
+*/
+canvas {
+  border: 5px solid #fff;
+}
+
+#prettydropdown-DefaultLang {
+  display: none;
+}
+
+.separatorGem {
+  background: #b1812e;
+}
+
+.manual__step-one__header {
+    color: #ffffff;
+}
+.manual__step-one__instructions {
+    color: #ffffff;
+}
+
+.payment__currencies:hover {
+    background: rgba(248, 248, 248,0.1);
+}
+
+.recommended-fee{
+    margin-top: 10px;
+}
+
+.powered__by__btcpayserver {
+display: none;
+}
+
+.payment-box.with-recommended-fee {
+    min-height: 400px;
+}
